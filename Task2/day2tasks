@@ -1,0 +1,132 @@
+#task 1
+firstVar=30
+sec_var=20
+print(firstVar)
+print(sec_var)
+
+#task 2
+r=45
+s=60
+t=r+s
+print(t)
+
+#task 3
+import math
+radius=float(input("Enter the radius of circle:"))
+area=math.pi*radius**2
+print("The area of the circle is ",area)
+
+#task 4
+length=float(input("Enter the length of rectangle:"))
+breadth=float(input("Enter the width of the rectangle:"))
+area=length*breadth
+print("The area of the rectangle is ",area)
+
+#task 5
+base=float(input("Enter the base:"))
+height=float(input("Enter the height:"))
+area=(base*height)/2
+print("The area of the triangle is ",area)
+
+#task 6
+num1=int(input("Enter the first number:"))
+num2=int(input("Enter the second number:"))
+addition=num1+num2
+subtraction=num1-num2
+multiplication=num1*num2
+division=num1/num2
+print("The sum of two numbers is ",addition)
+print("The difference of two numbers is ",subtraction)
+print("The product of two numbers is ",multiplication)
+print("The quotient of two numbers is",division)
+
+#task 7
+z=20
+print(z)
+y=10
+z=y
+print(z)
+z+=15
+print(z)
+z-=20
+print(z)
+z*=8
+print(z)
+z/=4
+print(z)
+
+#task 8
+num=50
+print("The initial value is ",num)
+num+=43
+print("The value after incrementation is",num)
+num-=19
+print("The value after being reduced is ",num)
+
+#task 9
+i=35
+j=42
+print(i==j)
+print(i!=j)
+print(i<j)
+print(i>j)
+print(i<=j)
+print(i>=j)
+
+#task 10
+rainy=True
+shopping=False
+print(rainy and shopping)
+print(rainy or shopping)
+print(not shopping)
+print(not rainy)
+
+#task 11
+#using third variable
+var1=50
+var2=100
+print("The variable one before swapping is a=",var1)
+print("The variable two before swapping is b=",var2)
+var3=var1
+var1=var2
+var2=var3
+print("Variable one after swapping is a=",var1)
+print("Variable two after swapping is b=",var2)
+#without using third variable
+var1=50
+var2=100
+var1,var2=var2,var1
+print("Swapping without using third variable:")
+print("Variable one after swapping x=",var1)
+print("Variable two after swapping y=",var2)
+
+#task 12
+first=float(input("Enter the first number:"))
+second=float(input("Enter the second number:"))
+third=float(input("Enter the third number:"))
+average=(first+second+third)/3
+print("The average of the three numbers is ",average)
+
+#task 13
+a=40
+b=30
+c=15
+d=5
+calculation=((a+b)*c)/d
+print("The final value is ",calculation)
+
+#task 14
+tamil=int(input("Enter your tamil marks:"))
+eng=int(input("Enter your english marks:"))
+math=int(input("Enter your math marks:"))
+sci=int(input("Enter your science marks:"))
+social=int(input("Enter your social marks:"))
+total=tamil+eng+math+sci+social
+average=total/5
+print("Total marks you scored:",total)
+print("Average of your marks:",average)
+
+
+
+
+
