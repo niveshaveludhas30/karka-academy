@@ -1,0 +1,144 @@
+# Task 1
+for n in range(1,11):
+    print(n)
+
+# Task 2
+print("Even numbers from 1 to 20:")
+for z in range(1,21):
+    if z%2==0:
+        print(z)    
+
+# Task 3
+print("Odd numbers from 1 to 20:")
+for z in range(1,21):
+    if z%2!=0:
+        print(z)
+
+# Task 4
+num=int(input("Enter a number:"))
+fact=1
+if num<0:
+    print("No factorials for negative numbers!")
+elif num==0:
+    print("Factorial of 0 is 1")
+else:
+    for i in range(1,num+1):
+        fact*=i
+    print("Factorial of",num,"is",fact)            
+
+# Task 5
+sum=0
+for c in range(1,101):
+    sum=sum+c
+print("Sum of numbers from 1 to 100 is",sum)    
+
+# Task 6
+lst=[10,15,20,25,30,35,40]
+sum=0
+for z in range(len(lst)):
+    sum=sum+lst[z]
+average=sum/(len(lst))
+print("The average of given list is",average)    
+
+# Task 7
+print("Square pattern")
+size=6
+for x in range(size):
+    for y in range(size):
+        print("&",end=" ")
+    print()    
+
+# Task 8
+print("Numbers from 1 to 5:")
+for v in range(1,6):
+    print(v)
+
+# Task 9
+print("The first 10 natural numbers are listed below:")
+for y in range(1,11):
+    print(y)
+
+# Task 10
+lst=[30,40,20,80,43,76,30]
+if lst[0]==lst[-1]:
+    print("True")
+else:
+    print("False")    
+
+# Task 11
+lst=[15,23,90,75,47,65,23]
+for z in range(len(lst)):
+    if lst[z]%5==0:
+        print(lst[z])
+
+# Task 12
+char=input("Enter a charactor:")
+if char in "aeiouAEIOU":
+    print("Vowel")
+else:
+    print("Consonant")    
+
+# Task 13
+even_num=0
+odd_num=0
+for num in range(10,56):
+    if num%2==0:
+        even_num+=1
+    else:
+        odd_num+=1 
+print("Count of even numbers:",even_num)
+print("Count of odd numbers:",odd_num)
+           
+# Task 14
+for z in range(1,26):
+    if z%5!=0:
+        print(z)
+
+# Task 15
+lst=[6,8,5,4,3]
+for num in lst:
+    fact=1
+    for z in range(1,num+1):
+        fact*=z
+    print(fact)  
+
+# Task 16
+num1=int(input("Enter the first number:"))
+num2=int(input("Enter the second number:"))
+product=num1*num2
+if product>500:
+    sum=num1+num2
+    print("The sum of",num1,"and",num2,"is",sum)
+else:
+    print("The Product of",num1,"and",num2,"is",product)    
+
+# Task 17
+num1=int(input("Enter the first number:"))
+num2=int(input("Enter the second number:"))
+if num1>num2:
+    print(num1,"is greater than",num2)
+else:
+    print(num2,"is greater than",num1)
+
+# Task 18
+no_1=int(input("Enter the first number:"))
+no_2=int(input("Enter the second number:"))
+no_3=int(input("Enter the third number:"))
+if no_1>no_2 and no_1>no_3:
+    print(no_1,"is greater than",no_2,"and",no_3)
+elif no_2>no_1 and no_2>no_3:
+    print(no_2,"is greater than",no_1,"and",no_3)
+else:
+    print(no_3,"is greater than",no_1,"and",no_2)       
+
+# Task 19
+lst=[23,4,-6,23,-9,21,3,-45,-8]
+positive=[]
+negative=[]
+for z in range(len(lst)):
+    if lst[z]>0:
+        positive.append(lst[z])
+    else:
+        negative.append(lst[z])    
+print("Positive numbers=",positive)
+print("Negative numbers=",negative)        
